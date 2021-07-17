@@ -10,8 +10,9 @@ func main() {
             "message": "ping",
         })
     })
+    data := "Hello Go/Gin!!"
     r.GET("/", func(c *gin.Context) {
-        c.HTML(200, "index.html", gin.H{})
+        c.HTML(200, "index.html", gin.H{"data": data})
     })
     // ポートを設定しています。
     r.Run(":3000")
