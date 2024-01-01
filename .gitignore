@@ -1,5 +1,0 @@
-mysql_data/
-docker/mysql/init/
-docker/mysql/my.conf/
-docker/mysql/env
-src/app/tmp
