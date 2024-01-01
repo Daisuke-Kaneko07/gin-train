@@ -2,7 +2,7 @@ package controller
 
 import (
 	"fmt"
-	"model"
+	"gin-train/model"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

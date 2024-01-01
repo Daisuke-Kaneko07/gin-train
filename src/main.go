@@ -1,7 +1,7 @@
 package main
 
 import (
-	"controller"
+	"gin-train/controller"
 )
 
 func main() {
